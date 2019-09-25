@@ -1,0 +1,10 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
+html{ width: 100%; height: auto; margin:0; padding:0; font-size:16px; color:#333; font-family: 'Nanum Gothic', sans-serif; line-height:1rem;}
+body {width: 100%; margin: 0 auto;}
+table {border-collapse:collapse; width:100%;}
+td {margin:0; padding:0; text-align: center;}
+div, p, ul, ol, li {margin:0; padding:0; list-style:none;}
+a {text-decoration: none; color: #000;}
+input {outline: none}
+section {padding-top: 110px; width: 60%; margin: 0 auto; position: relative;}

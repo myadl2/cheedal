@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./base.css">
+    <title>Document</title>
+</head>
+<style>
+    header{min-width: 100%; height: 111px; background-color: #fff; color: #000; 
+        position: fixed; z-index: 1000;}
+    .header-gnb {width: 70%; margin: 0 auto; height: 40px; color: #8d8d8d; font-size :12px; background:#fff;
+        box-sizing:border-box;  z-index:102;}
+    header .header-gnb > ul {float:right; padding: 0; margin: 0 20px 0 0;}  
+    header .header-gnb > ul li {position:relative;display:inline-block; margin-left: 0;}
+    header .header-gnb > ul li a {display:inline-block; padding: 0 11px; line-height: 38px;}
+    header > article {position: relative; width: 100%; margin: 0 auto; box-sizing: border-box; border-bottom: 1px solid #e5e5e5; border-top: 1px solid #e5e5e5;} 
+    header > article > nav {width: 70%; height: 69px; margin: 0 auto; padding: 0 32px 0 30px;
+    font-size: 14px; text-align: center; box-sizing: border-box; z-index: 101; background-color: #fff;
+     display: flex; align-items: center; justify-items: center;}   
+    header > article > nav > h1 {width: 194px; height: 70px; padding: 5px 0; text-align: left;
+    box-sizing: border-box; vertical-align: middle; font-size: 28.05px; }
+    header > article > nav > h1 img {width: 78%;}
+    header > article > nav > ul {display: inline-block; padding: 0; line-height: 68px; text-align: center;
+    vertical-align: middle; width: calc(100% - 418px); }
+    header > article > nav > ul li {position: static; display: inline-block; padding: 0 20px;}
+    header > article > nav > ul li a {position: relative; font-size: 16px; font-weight: bolder;}
+    header > article > nav > ul li .submenu  {display: none; position: absolute;  top:70px; height: 38px;
+        left: 0%; width: 100%; background-color: #fff; border-top: 1px solid #dedfda;}
+    header > article > nav > ul li:hover .submenu {display: block; }
+    header > article > nav > ul li ul {min-width: 120px; width: 70%; margin: 0 auto;
+    line-height: 35px; text-align: center; }
+    header > article > nav > ul li .su_m a {font-size: 12px; line-height:2rem;}
+    header > article > nav > ul li .su_m a:hover {color: #666; }
+    header > article > nav > ul li:hover {border-bottom: 3px solid #345;}
+</style>
+
+<body>
+    <header>
+        <div class="header-gnb">
+                <ul>
+                    <li>
+                        <span><a href="#">로그인</a><a href="#">회원가입</a></span>
+                    </li>
+                </ul>
+        </div>
+        <article>
+            <nav>
+                <h1 id="logo"><a href="#"><img src="./img/che.gif"></a></h1>
+                <ul>
+                    <li>
+                        <a href="">MY PAGE</a>
+                        <div class="submenu su_m">
+                            <ul>
+                                <li><a href="#">회원 정보 수정</a></li>
+                                <li><a href="#">개인기록</a></li>
+                                <li><a href="#">쪽지함</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">MATCH</a>
+                         <div class="submenu su_m">
+                            <ul>
+                                <li><a href="#">팀 매치</a></li>
+                            </ul>
+                        </div> 
+                    </li>
+                    <li>
+                        <a href="">RANKING</a>
+                        <div class="submenu su_m">
+                            <ul>
+                                <li><a href="#">개인 랭킹</a></li>
+                                <li><a href="#">팀 랭킹</a></li>
+                            </ul> 
+                        </div> 
+                    </li>
+                    <li>
+                        <a href="">TEAM</a>
+                        <div class="submenu su_m">
+                        <ul>
+                            <li><a href="#">팀 정보</a></li>
+                        </ul>
+                        </div> 
+                    </li>
+                    <li>
+                        <a href="">COMMUNITY</a>
+                         <div class="submenu su_m">
+                            <ul>
+                                <li><a href="#">모집게시판</a></li>
+                                <li><a href="#">공지사항</a></li>
+                                <li><a href="#">결과게시판</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </article>
+    </header>
+</body>
+</html>

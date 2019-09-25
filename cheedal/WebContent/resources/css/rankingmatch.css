@@ -1,0 +1,161 @@
+
+
+#title{
+    padding-top: 15px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    top: 300px;
+    left: 38.5%;
+}
+#headphoto{
+    width: 87%;
+    height: 150px;
+    position: absolute;
+    top: 111px;
+    left: 13%;
+    background-image: url("./img/fancy-crave-qowyMze7jqg-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#datetitle {
+    padding-top: 15px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    top: 410px;
+    left: 38%;
+    
+}
+.date {
+    position: absolute;
+    display: grid;
+    width: 100%;
+    height: 40px;
+    grid-template-columns: repeat(7, 1fr);
+    top: 500px;
+    text-align: center;
+    border-top : 3px solid #facc17;
+    border-bottom: 3px solid #facc17;
+    background: #e5e5e5;
+    padding : 5px 0;
+}
+.date > a > div {
+    margin-right: 40px;
+    padding-top: 10px;
+    height: 25px;
+    font-weight: bold;
+}
+.date > :nth-child(4) > div {
+    font-size: 1.2rem;
+}
+.list {
+    position: absolute;
+    top: 600px;
+    width: 100%;
+    height: 800px;
+}
+.list > a > ul {
+    display: table;
+    width: 100%;
+    height: 45px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    border: 1px solid lightgray;
+}
+.list > a > ul > li {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    height: 100%;
+}
+.list > a > ul:hover{
+    background: #e5e5e5;
+}
+.list > ul:nth-child(3) > li:nth-child(2), .list > ul:nth-child(4) > li:nth-child(2) {
+    color: red;
+    font-weight: bold;
+}
+#area {
+    position: absolute;
+    top: 450px;
+    left: 50px;
+    height: 30px;
+    border: 1px solid lightgray;
+    font-weight: bolder;    
+}
+#createbutton {
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    top: 400px;
+    left: 80%;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    border: none;
+    background: #472f0e;;
+}
+
+.sidebar {
+    position: absolute;
+    width: 13%;
+    top: 0px;
+    height:150%;
+    background: #facc17;
+    padding-top: 300px;    
+}
+#subtitle{
+    position: fixed;
+    width: 13%;
+    background: white;
+    border-top: 5px solid #472f0e;
+    border-bottom: 5px solid #472f0e;
+}
+#subtitle strong {
+    height: 30px;
+    text-align: center;
+    font-size: 2rem;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 5px double lightgray; 
+}
+#subtitle ul {
+    
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-top: 10px;
+    text-align: center;
+}
+#subtitle ul li {
+    margin-bottom: 20px;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+}
+.titlemark{
+    width: 10px;
+    height:30px;
+    position: relative;
+    top: 198px;
+    left: 42%;
+}
+#table{
+    width: 100%;
+    height: 100%;
+}
+#one{
+    width: 50%;
+    background: #facc17;
+}
+#two{
+    width:50%;
+    background: #472f0e;
+}
